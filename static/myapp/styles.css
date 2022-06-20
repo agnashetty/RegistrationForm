@@ -1,0 +1,127 @@
+body{
+    background-color:antiquewhite;
+    height: 100%;
+}
+
+.form {
+background-color: aquamarine;
+padding: 2rem 5rem;
+border-radius: 1rem;
+}
+
+
+
+.container{
+   margin: auto;
+   width: 50%;
+}
+
+.head{
+    text-align: center;
+}
+
+.btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  .msg{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 5px green;
+    
+
+  }
+
+ 
+
+  .form-control{
+    width: 80%;
+    height: 30px;
+  }
+
+
+  /* ----------------responsive design--------------- */
+
+  @media  (max-width: 500px) {
+ .box{
+    width: 50%;
+    display: flex;
+    margin-top: 5rem;
+ }
+ 
+ .form  {
+    
+    width: 100px;
+    float: left;
+    margin-left: 1rem;
+ }
+ .head{
+    display: inline-block;
+    padding-left: 3rem;
+ }
+
+ .form-control{
+    width: 90%;
+ }
+
+ .btn{
+   align-items: center;
+    
+ }
+ .msg{
+    /* margin-top: -5rem; */
+    height: 50px;
+}
+
+  }
+
+
+  @media (max-width:350px) {
+    
+    .form{
+       margin-left: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        
+
+    }
+
+    .form-control{
+        width: 90%;
+    }
+    .head{
+        padding-left: 0%;
+        margin-left: 1rem;
+    }
+    
+  }
+
+  @media (max-width:220px) {
+    
+    .form{
+       margin-left: -1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        
+
+    }
+
+    .form-control{
+        width: 90%;
+    }
+    .head{
+        padding-left: 0%;
+        margin-left: -1rem;
+    }
+  }
